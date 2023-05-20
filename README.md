@@ -1,5 +1,5 @@
-# Mainig calculator
-Solve your profits from maining
+# mining calculator
+Solve your profits from mining
 
     _____________________
     |_|_______________|_|
