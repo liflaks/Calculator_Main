@@ -1,5 +1,5 @@
-# mining calculator
-Solve your profits from mining
+# Mining calculator
+The Mining Calculator Program is a powerful and intuitive tool designed to revolutionize the way miners analyze their cryptocurrency mining operations. Whether you are a seasoned miner or just starting in the world of digital currencies, this cutting-edge software provides you with the essential calculations and data you need to make informed decisions and optimize your mining profits.
 
     _____________________
     |_|_______________|_|
