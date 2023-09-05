@@ -15,7 +15,7 @@ namespace Calculator_Main
 {
     public partial class Main : Form
     {
-        string cs = @"URI=file:"+ Application.StartupPath + "project.db"; 
+        string cs = @"URI=file:" + Application.StartupPath + "project.db";
         SQLiteDataReader dr;
         double[] expenses1, expenses2, expenses3, expenses4;
         double[] incomes1, incomes2, incomes3, incomes4;
@@ -169,7 +169,7 @@ namespace Calculator_Main
 
         private void calculateResult_Click(object sender, EventArgs e)
         {
-            if (price.Text == "0" )
+            if (float.Parse(price.Text) <= 0.1)
             {
                 MessageBox.Show("Цена за электричество не может быть 0, минимально 0.1");
                 price.Text = "0.1";
@@ -177,7 +177,7 @@ namespace Calculator_Main
 
             else if (capacity_1.Text == "0" || capacity_2.Text == "0" || capacity_3.Text == "0" || capacity_4.Text == "0")
             {
-                MessageBox.Show("Количество устройств не может быть > 1");
+                MessageBox.Show("Количество устройств не может быть < 1");
             }
 
             else
@@ -231,8 +231,20 @@ namespace Calculator_Main
                 MessageBox.Show($"Ваша прибыль исходя из конфигурации\nЗа час - {income - expenses1H} {currency.Text}\nЗа 1 день - {income1D - expenses1D} {currency.Text}\nЗа 1 месяц - {income1M - expenses1M} {currency.Text}\nЗа 1 год - {income1Y - expenses1Y} {currency.Text}");
                 Logger.Log("result_calculated", "action");
             }
-            
+
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void capacity_1_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void capacity_2_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

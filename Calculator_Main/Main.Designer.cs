@@ -30,700 +30,706 @@ namespace Calculator_Main
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            this.calculateResult = new System.Windows.Forms.Button();
-            this.Light = new System.Windows.Forms.PictureBox();
-            this.Kwh_label = new System.Windows.Forms.Label();
-            this.price = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.currency = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.devices_1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pluse_1 = new System.Windows.Forms.PictureBox();
-            this.minus_1 = new System.Windows.Forms.PictureBox();
-            this.capacity_1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.d1 = new System.Windows.Forms.Panel();
-            this.d2 = new System.Windows.Forms.Panel();
-            this.delete_1 = new System.Windows.Forms.PictureBox();
-            this.pluse_2 = new System.Windows.Forms.PictureBox();
-            this.capacity_2 = new System.Windows.Forms.TextBox();
-            this.minus_2 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.devices_2 = new System.Windows.Forms.ComboBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.addDevice = new System.Windows.Forms.Button();
-            this.d3 = new System.Windows.Forms.Panel();
-            this.delete_3 = new System.Windows.Forms.PictureBox();
-            this.pluse_3 = new System.Windows.Forms.PictureBox();
-            this.capacity_3 = new System.Windows.Forms.TextBox();
-            this.minus_3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.devices_3 = new System.Windows.Forms.ComboBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.d4 = new System.Windows.Forms.Panel();
-            this.delete_4 = new System.Windows.Forms.PictureBox();
-            this.pluse_4 = new System.Windows.Forms.PictureBox();
-            this.capacity_4 = new System.Windows.Forms.TextBox();
-            this.minus_4 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.devices_4 = new System.Windows.Forms.ComboBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.Clear = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.Light)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_1)).BeginInit();
-            this.d1.SuspendLayout();
-            this.d2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.delete_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.d3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.delete_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.d4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.delete_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // calculateResult
-            // 
-            this.calculateResult.BackColor = System.Drawing.Color.White;
-            this.calculateResult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.calculateResult.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.calculateResult.ForeColor = System.Drawing.Color.White;
-            this.calculateResult.Image = ((System.Drawing.Image)(resources.GetObject("calculateResult.Image")));
-            this.calculateResult.Location = new System.Drawing.Point(403, 442);
-            this.calculateResult.Name = "calculateResult";
-            this.calculateResult.Size = new System.Drawing.Size(165, 50);
-            this.calculateResult.TabIndex = 0;
-            this.calculateResult.UseVisualStyleBackColor = false;
-            this.calculateResult.Click += new System.EventHandler(this.calculateResult_Click);
+            Light = new System.Windows.Forms.PictureBox();
+            Kwh_label = new System.Windows.Forms.Label();
+            price = new System.Windows.Forms.TextBox();
+            label2 = new System.Windows.Forms.Label();
+            currency = new System.Windows.Forms.ComboBox();
+            label1 = new System.Windows.Forms.Label();
+            pictureBox2 = new System.Windows.Forms.PictureBox();
+            d2 = new System.Windows.Forms.Panel();
+            delete_1 = new System.Windows.Forms.PictureBox();
+            pluse_2 = new System.Windows.Forms.PictureBox();
+            capacity_2 = new System.Windows.Forms.TextBox();
+            minus_2 = new System.Windows.Forms.PictureBox();
+            label6 = new System.Windows.Forms.Label();
+            devices_2 = new System.Windows.Forms.ComboBox();
+            pictureBox3 = new System.Windows.Forms.PictureBox();
+            label5 = new System.Windows.Forms.Label();
+            d3 = new System.Windows.Forms.Panel();
+            delete_3 = new System.Windows.Forms.PictureBox();
+            pluse_3 = new System.Windows.Forms.PictureBox();
+            capacity_3 = new System.Windows.Forms.TextBox();
+            minus_3 = new System.Windows.Forms.PictureBox();
+            label7 = new System.Windows.Forms.Label();
+            devices_3 = new System.Windows.Forms.ComboBox();
+            pictureBox8 = new System.Windows.Forms.PictureBox();
+            label8 = new System.Windows.Forms.Label();
+            d4 = new System.Windows.Forms.Panel();
+            delete_4 = new System.Windows.Forms.PictureBox();
+            pluse_4 = new System.Windows.Forms.PictureBox();
+            capacity_4 = new System.Windows.Forms.TextBox();
+            minus_4 = new System.Windows.Forms.PictureBox();
+            label9 = new System.Windows.Forms.Label();
+            devices_4 = new System.Windows.Forms.ComboBox();
+            pictureBox12 = new System.Windows.Forms.PictureBox();
+            label10 = new System.Windows.Forms.Label();
+            devices_1 = new System.Windows.Forms.ComboBox();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            minus_1 = new System.Windows.Forms.PictureBox();
+            pluse_1 = new System.Windows.Forms.PictureBox();
+            label4 = new System.Windows.Forms.Label();
+            capacity_1 = new System.Windows.Forms.TextBox();
+            label3 = new System.Windows.Forms.Label();
+            d1 = new System.Windows.Forms.Panel();
+            button2 = new System.Windows.Forms.Button();
+            button3 = new System.Windows.Forms.Button();
+            button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)Light).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            d2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)delete_1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)minus_2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            d3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)delete_3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)minus_3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            d4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)delete_4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)minus_4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)minus_1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_1).BeginInit();
+            d1.SuspendLayout();
+            SuspendLayout();
             // 
             // Light
             // 
-            this.Light.BackColor = System.Drawing.Color.White;
-            this.Light.Image = ((System.Drawing.Image)(resources.GetObject("Light.Image")));
-            this.Light.Location = new System.Drawing.Point(459, 9);
-            this.Light.Name = "Light";
-            this.Light.Size = new System.Drawing.Size(20, 20);
-            this.Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Light.TabIndex = 6;
-            this.Light.TabStop = false;
+            Light.BackColor = System.Drawing.Color.White;
+            Light.Image = (System.Drawing.Image)resources.GetObject("Light.Image");
+            Light.Location = new System.Drawing.Point(382, 3);
+            Light.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            Light.Name = "Light";
+            Light.Size = new System.Drawing.Size(27, 19);
+            Light.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            Light.TabIndex = 6;
+            Light.TabStop = false;
             // 
             // Kwh_label
             // 
-            this.Kwh_label.AutoSize = true;
-            this.Kwh_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Kwh_label.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Kwh_label.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Kwh_label.Location = new System.Drawing.Point(417, 38);
-            this.Kwh_label.Name = "Kwh_label";
-            this.Kwh_label.Size = new System.Drawing.Size(57, 16);
-            this.Kwh_label.TabIndex = 5;
-            this.Kwh_label.Text = "USD/Kwh";
+            Kwh_label.AutoSize = true;
+            Kwh_label.BackColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            Kwh_label.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            Kwh_label.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            Kwh_label.Location = new System.Drawing.Point(365, 28);
+            Kwh_label.Name = "Kwh_label";
+            Kwh_label.Size = new System.Drawing.Size(50, 15);
+            Kwh_label.TabIndex = 5;
+            Kwh_label.Text = "USD/Kwh";
             // 
             // price
             // 
-            this.price.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.price.ForeColor = System.Drawing.Color.Black;
-            this.price.Location = new System.Drawing.Point(271, 33);
-            this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(205, 27);
-            this.price.TabIndex = 4;
-            this.price.Text = "0.1";
-            this.price.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.price_KeyPress);
+            price.BackColor = System.Drawing.Color.FromArgb(226, 226, 226);
+            price.ForeColor = System.Drawing.Color.Black;
+            price.Location = new System.Drawing.Point(237, 25);
+            price.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            price.Name = "price";
+            price.Size = new System.Drawing.Size(180, 23);
+            price.TabIndex = 4;
+            price.Text = "0.1";
+            price.KeyPress += price_KeyPress;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(271, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(192, 18);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Цена за электричество";
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label2.ForeColor = System.Drawing.Color.Black;
+            label2.Location = new System.Drawing.Point(238, 3);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(147, 19);
+            label2.TabIndex = 3;
+            label2.Text = "Цена за электричество";
             // 
             // currency
             // 
-            this.currency.BackColor = System.Drawing.Color.White;
-            this.currency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.currency.ForeColor = System.Drawing.Color.Black;
-            this.currency.FormattingEnabled = true;
-            this.currency.Items.AddRange(new object[] {
-            "USD - $",
-            "KZT - ₸",
-            "RUB - ₽"});
-            this.currency.Location = new System.Drawing.Point(61, 32);
-            this.currency.Name = "currency";
-            this.currency.Size = new System.Drawing.Size(151, 28);
-            this.currency.TabIndex = 2;
-            this.currency.TextChanged += new System.EventHandler(this.currency_TextChanged);
+            currency.BackColor = System.Drawing.Color.White;
+            currency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            currency.ForeColor = System.Drawing.Color.Black;
+            currency.FormattingEnabled = true;
+            currency.Items.AddRange(new object[] { "USD - $", "KZT - ₸", "RUB - ₽" });
+            currency.Location = new System.Drawing.Point(53, 24);
+            currency.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            currency.Name = "currency";
+            currency.Size = new System.Drawing.Size(133, 23);
+            currency.TabIndex = 2;
+            currency.TextChanged += currency_TextChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(61, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 18);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Валюта";
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label1.ForeColor = System.Drawing.Color.Black;
+            label1.Location = new System.Drawing.Point(54, 3);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(54, 19);
+            label1.TabIndex = 1;
+            label1.Text = "Валюта";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(134, 9);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // devices_1
-            // 
-            this.devices_1.BackColor = System.Drawing.Color.White;
-            this.devices_1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.devices_1.ForeColor = System.Drawing.Color.Black;
-            this.devices_1.FormattingEnabled = true;
-            this.devices_1.Location = new System.Drawing.Point(10, 47);
-            this.devices_1.Name = "devices_1";
-            this.devices_1.Size = new System.Drawing.Size(275, 28);
-            this.devices_1.TabIndex = 9;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.label3.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(10, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 18);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Устройство";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(116, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 29);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pluse_1
-            // 
-            this.pluse_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.pluse_1.Image = ((System.Drawing.Image)(resources.GetObject("pluse_1.Image")));
-            this.pluse_1.Location = new System.Drawing.Point(418, 45);
-            this.pluse_1.Name = "pluse_1";
-            this.pluse_1.Size = new System.Drawing.Size(30, 30);
-            this.pluse_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pluse_1.TabIndex = 12;
-            this.pluse_1.TabStop = false;
-            this.pluse_1.Click += new System.EventHandler(this.pluse_1_Click);
-            // 
-            // minus_1
-            // 
-            this.minus_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(64)))));
-            this.minus_1.Image = ((System.Drawing.Image)(resources.GetObject("minus_1.Image")));
-            this.minus_1.Location = new System.Drawing.Point(350, 45);
-            this.minus_1.Name = "minus_1";
-            this.minus_1.Size = new System.Drawing.Size(30, 30);
-            this.minus_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.minus_1.TabIndex = 13;
-            this.minus_1.TabStop = false;
-            this.minus_1.Click += new System.EventHandler(this.minus_1_Click);
-            // 
-            // capacity_1
-            // 
-            this.capacity_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.capacity_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.capacity_1.ForeColor = System.Drawing.Color.Black;
-            this.capacity_1.Location = new System.Drawing.Point(395, 50);
-            this.capacity_1.Name = "capacity_1";
-            this.capacity_1.Size = new System.Drawing.Size(23, 20);
-            this.capacity_1.TabIndex = 14;
-            this.capacity_1.Text = "1";
-            this.capacity_1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.capacity_1_KeyPress);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.label4.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label4.Location = new System.Drawing.Point(340, 12);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 18);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Кол - во устройств";
-            // 
-            // d1
-            // 
-            this.d1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.d1.Controls.Add(this.label3);
-            this.d1.Controls.Add(this.capacity_1);
-            this.d1.Controls.Add(this.label4);
-            this.d1.Controls.Add(this.pluse_1);
-            this.d1.Controls.Add(this.minus_1);
-            this.d1.Controls.Add(this.pictureBox1);
-            this.d1.Controls.Add(this.devices_1);
-            this.d1.Location = new System.Drawing.Point(61, 66);
-            this.d1.Name = "d1";
-            this.d1.Size = new System.Drawing.Size(507, 88);
-            this.d1.TabIndex = 16;
+            pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new System.Drawing.Point(114, 3);
+            pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new System.Drawing.Size(21, 19);
+            pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 8;
+            pictureBox2.TabStop = false;
             // 
             // d2
             // 
-            this.d2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.d2.Controls.Add(this.delete_1);
-            this.d2.Controls.Add(this.pluse_2);
-            this.d2.Controls.Add(this.capacity_2);
-            this.d2.Controls.Add(this.minus_2);
-            this.d2.Controls.Add(this.label6);
-            this.d2.Controls.Add(this.devices_2);
-            this.d2.Controls.Add(this.pictureBox3);
-            this.d2.Controls.Add(this.label5);
-            this.d2.Location = new System.Drawing.Point(61, 160);
-            this.d2.Name = "d2";
-            this.d2.Size = new System.Drawing.Size(507, 88);
-            this.d2.TabIndex = 17;
-            this.d2.Visible = false;
+            d2.BackColor = System.Drawing.Color.White;
+            d2.Controls.Add(delete_1);
+            d2.Controls.Add(pluse_2);
+            d2.Controls.Add(capacity_2);
+            d2.Controls.Add(minus_2);
+            d2.Controls.Add(label6);
+            d2.Controls.Add(devices_2);
+            d2.Controls.Add(pictureBox3);
+            d2.Controls.Add(label5);
+            d2.Location = new System.Drawing.Point(53, 120);
+            d2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            d2.Name = "d2";
+            d2.Size = new System.Drawing.Size(444, 66);
+            d2.TabIndex = 17;
+            d2.Visible = false;
             // 
             // delete_1
             // 
-            this.delete_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.delete_1.Image = ((System.Drawing.Image)(resources.GetObject("delete_1.Image")));
-            this.delete_1.Location = new System.Drawing.Point(467, 46);
-            this.delete_1.Name = "delete_1";
-            this.delete_1.Size = new System.Drawing.Size(30, 30);
-            this.delete_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.delete_1.TabIndex = 19;
-            this.delete_1.TabStop = false;
-            this.delete_1.Click += new System.EventHandler(this.delete_1_Click);
+            delete_1.BackColor = System.Drawing.SystemColors.Window;
+            delete_1.Image = (System.Drawing.Image)resources.GetObject("delete_1.Image");
+            delete_1.Location = new System.Drawing.Point(384, 34);
+            delete_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            delete_1.Name = "delete_1";
+            delete_1.Size = new System.Drawing.Size(26, 22);
+            delete_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            delete_1.TabIndex = 19;
+            delete_1.TabStop = false;
+            delete_1.Click += delete_1_Click;
             // 
             // pluse_2
             // 
-            this.pluse_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.pluse_2.Image = ((System.Drawing.Image)(resources.GetObject("pluse_2.Image")));
-            this.pluse_2.Location = new System.Drawing.Point(418, 45);
-            this.pluse_2.Name = "pluse_2";
-            this.pluse_2.Size = new System.Drawing.Size(30, 30);
-            this.pluse_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pluse_2.TabIndex = 18;
-            this.pluse_2.TabStop = false;
-            this.pluse_2.Click += new System.EventHandler(this.pluse_2_Click);
+            pluse_2.BackColor = System.Drawing.SystemColors.Window;
+            pluse_2.ErrorImage = (System.Drawing.Image)resources.GetObject("pluse_2.ErrorImage");
+            pluse_2.Image = (System.Drawing.Image)resources.GetObject("pluse_2.Image");
+            pluse_2.Location = new System.Drawing.Point(341, 34);
+            pluse_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pluse_2.Name = "pluse_2";
+            pluse_2.Size = new System.Drawing.Size(26, 22);
+            pluse_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pluse_2.TabIndex = 18;
+            pluse_2.TabStop = false;
+            pluse_2.Click += pluse_2_Click;
             // 
             // capacity_2
             // 
-            this.capacity_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.capacity_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.capacity_2.ForeColor = System.Drawing.Color.Black;
-            this.capacity_2.Location = new System.Drawing.Point(395, 50);
-            this.capacity_2.Name = "capacity_2";
-            this.capacity_2.Size = new System.Drawing.Size(23, 20);
-            this.capacity_2.TabIndex = 18;
-            this.capacity_2.Text = "1";
-            this.capacity_2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.capacity_2_KeyPress);
+            capacity_2.BackColor = System.Drawing.SystemColors.Window;
+            capacity_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            capacity_2.ForeColor = System.Drawing.Color.Black;
+            capacity_2.Location = new System.Drawing.Point(321, 38);
+            capacity_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            capacity_2.Name = "capacity_2";
+            capacity_2.Size = new System.Drawing.Size(20, 16);
+            capacity_2.TabIndex = 18;
+            capacity_2.Text = "1";
+            capacity_2.TextChanged += capacity_2_TextChanged;
+            capacity_2.KeyPress += capacity_2_KeyPress;
             // 
             // minus_2
             // 
-            this.minus_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.minus_2.Image = ((System.Drawing.Image)(resources.GetObject("minus_2.Image")));
-            this.minus_2.Location = new System.Drawing.Point(350, 45);
-            this.minus_2.Name = "minus_2";
-            this.minus_2.Size = new System.Drawing.Size(30, 30);
-            this.minus_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.minus_2.TabIndex = 18;
-            this.minus_2.TabStop = false;
-            this.minus_2.Click += new System.EventHandler(this.minus_2_Click);
+            minus_2.BackColor = System.Drawing.SystemColors.Window;
+            minus_2.Image = (System.Drawing.Image)resources.GetObject("minus_2.Image");
+            minus_2.Location = new System.Drawing.Point(281, 34);
+            minus_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            minus_2.Name = "minus_2";
+            minus_2.Size = new System.Drawing.Size(26, 22);
+            minus_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            minus_2.TabIndex = 18;
+            minus_2.TabStop = false;
+            minus_2.Click += minus_2_Click;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.label6.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label6.Location = new System.Drawing.Point(340, 15);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(157, 18);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Кол - во устройств";
+            label6.AutoSize = true;
+            label6.BackColor = System.Drawing.SystemColors.Window;
+            label6.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            label6.Location = new System.Drawing.Point(273, 11);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(119, 14);
+            label6.TabIndex = 18;
+            label6.Text = "Кол - во устройств";
             // 
             // devices_2
             // 
-            this.devices_2.BackColor = System.Drawing.Color.White;
-            this.devices_2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.devices_2.ForeColor = System.Drawing.Color.Black;
-            this.devices_2.FormattingEnabled = true;
-            this.devices_2.Location = new System.Drawing.Point(10, 46);
-            this.devices_2.Name = "devices_2";
-            this.devices_2.Size = new System.Drawing.Size(275, 28);
-            this.devices_2.TabIndex = 19;
+            devices_2.BackColor = System.Drawing.Color.White;
+            devices_2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            devices_2.ForeColor = System.Drawing.Color.Black;
+            devices_2.FormattingEnabled = true;
+            devices_2.Location = new System.Drawing.Point(9, 34);
+            devices_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            devices_2.Name = "devices_2";
+            devices_2.Size = new System.Drawing.Size(241, 23);
+            devices_2.TabIndex = 19;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(64)))));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(116, 15);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 29);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
+            pictureBox3.BackColor = System.Drawing.SystemColors.Window;
+            pictureBox3.Image = (System.Drawing.Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new System.Drawing.Point(82, 12);
+            pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new System.Drawing.Size(39, 22);
+            pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 18;
+            pictureBox3.TabStop = false;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(64)))));
-            this.label5.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(10, 26);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 18);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Устройство";
-            // 
-            // addDevice
-            // 
-            this.addDevice.BackColor = System.Drawing.Color.White;
-            this.addDevice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addDevice.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.addDevice.ForeColor = System.Drawing.Color.White;
-            this.addDevice.Image = ((System.Drawing.Image)(resources.GetObject("addDevice.Image")));
-            this.addDevice.Location = new System.Drawing.Point(61, 442);
-            this.addDevice.Name = "addDevice";
-            this.addDevice.Size = new System.Drawing.Size(165, 50);
-            this.addDevice.TabIndex = 18;
-            this.addDevice.UseVisualStyleBackColor = false;
-            this.addDevice.Click += new System.EventHandler(this.addDevice_Click);
+            label5.AutoSize = true;
+            label5.BackColor = System.Drawing.SystemColors.Window;
+            label5.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label5.ForeColor = System.Drawing.Color.Black;
+            label5.Location = new System.Drawing.Point(9, 20);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(67, 14);
+            label5.TabIndex = 18;
+            label5.Text = "Устройство";
             // 
             // d3
             // 
-            this.d3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.d3.Controls.Add(this.delete_3);
-            this.d3.Controls.Add(this.pluse_3);
-            this.d3.Controls.Add(this.capacity_3);
-            this.d3.Controls.Add(this.minus_3);
-            this.d3.Controls.Add(this.label7);
-            this.d3.Controls.Add(this.devices_3);
-            this.d3.Controls.Add(this.pictureBox8);
-            this.d3.Controls.Add(this.label8);
-            this.d3.Location = new System.Drawing.Point(61, 254);
-            this.d3.Name = "d3";
-            this.d3.Size = new System.Drawing.Size(507, 88);
-            this.d3.TabIndex = 19;
-            this.d3.Visible = false;
+            d3.BackColor = System.Drawing.Color.White;
+            d3.Controls.Add(delete_3);
+            d3.Controls.Add(pluse_3);
+            d3.Controls.Add(capacity_3);
+            d3.Controls.Add(minus_3);
+            d3.Controls.Add(label7);
+            d3.Controls.Add(devices_3);
+            d3.Controls.Add(pictureBox8);
+            d3.Controls.Add(label8);
+            d3.Location = new System.Drawing.Point(53, 190);
+            d3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            d3.Name = "d3";
+            d3.Size = new System.Drawing.Size(444, 66);
+            d3.TabIndex = 19;
+            d3.Visible = false;
             // 
             // delete_3
             // 
-            this.delete_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.delete_3.Image = ((System.Drawing.Image)(resources.GetObject("delete_3.Image")));
-            this.delete_3.Location = new System.Drawing.Point(467, 46);
-            this.delete_3.Name = "delete_3";
-            this.delete_3.Size = new System.Drawing.Size(30, 30);
-            this.delete_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.delete_3.TabIndex = 19;
-            this.delete_3.TabStop = false;
-            this.delete_3.Click += new System.EventHandler(this.delete_3_Click);
+            delete_3.BackColor = System.Drawing.SystemColors.Window;
+            delete_3.Image = (System.Drawing.Image)resources.GetObject("delete_3.Image");
+            delete_3.Location = new System.Drawing.Point(384, 35);
+            delete_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            delete_3.Name = "delete_3";
+            delete_3.Size = new System.Drawing.Size(26, 22);
+            delete_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            delete_3.TabIndex = 19;
+            delete_3.TabStop = false;
+            delete_3.Click += delete_3_Click;
             // 
             // pluse_3
             // 
-            this.pluse_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.pluse_3.Image = ((System.Drawing.Image)(resources.GetObject("pluse_3.Image")));
-            this.pluse_3.Location = new System.Drawing.Point(418, 45);
-            this.pluse_3.Name = "pluse_3";
-            this.pluse_3.Size = new System.Drawing.Size(30, 30);
-            this.pluse_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pluse_3.TabIndex = 18;
-            this.pluse_3.TabStop = false;
-            this.pluse_3.Click += new System.EventHandler(this.pluse_3_Click);
+            pluse_3.BackColor = System.Drawing.SystemColors.Window;
+            pluse_3.ErrorImage = (System.Drawing.Image)resources.GetObject("pluse_3.ErrorImage");
+            pluse_3.Image = (System.Drawing.Image)resources.GetObject("pluse_3.Image");
+            pluse_3.Location = new System.Drawing.Point(341, 35);
+            pluse_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pluse_3.Name = "pluse_3";
+            pluse_3.Size = new System.Drawing.Size(26, 22);
+            pluse_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pluse_3.TabIndex = 18;
+            pluse_3.TabStop = false;
+            pluse_3.Click += pluse_3_Click;
             // 
             // capacity_3
             // 
-            this.capacity_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.capacity_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.capacity_3.ForeColor = System.Drawing.Color.Black;
-            this.capacity_3.Location = new System.Drawing.Point(395, 50);
-            this.capacity_3.Name = "capacity_3";
-            this.capacity_3.Size = new System.Drawing.Size(23, 20);
-            this.capacity_3.TabIndex = 18;
-            this.capacity_3.Text = "1";
-            this.capacity_3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.capacity_3_KeyPress);
+            capacity_3.BackColor = System.Drawing.SystemColors.Window;
+            capacity_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            capacity_3.ForeColor = System.Drawing.Color.Black;
+            capacity_3.Location = new System.Drawing.Point(321, 39);
+            capacity_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            capacity_3.Name = "capacity_3";
+            capacity_3.Size = new System.Drawing.Size(20, 16);
+            capacity_3.TabIndex = 18;
+            capacity_3.Text = "1";
+            capacity_3.KeyPress += capacity_3_KeyPress;
             // 
             // minus_3
             // 
-            this.minus_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.minus_3.Image = ((System.Drawing.Image)(resources.GetObject("minus_3.Image")));
-            this.minus_3.Location = new System.Drawing.Point(350, 45);
-            this.minus_3.Name = "minus_3";
-            this.minus_3.Size = new System.Drawing.Size(30, 30);
-            this.minus_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.minus_3.TabIndex = 18;
-            this.minus_3.TabStop = false;
-            this.minus_3.Click += new System.EventHandler(this.minus_3_Click);
+            minus_3.BackColor = System.Drawing.SystemColors.Window;
+            minus_3.Image = (System.Drawing.Image)resources.GetObject("minus_3.Image");
+            minus_3.Location = new System.Drawing.Point(281, 35);
+            minus_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            minus_3.Name = "minus_3";
+            minus_3.Size = new System.Drawing.Size(26, 22);
+            minus_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            minus_3.TabIndex = 18;
+            minus_3.TabStop = false;
+            minus_3.Click += minus_3_Click;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.label7.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label7.Location = new System.Drawing.Point(340, 15);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(157, 18);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Кол - во устройств";
+            label7.AutoSize = true;
+            label7.BackColor = System.Drawing.SystemColors.Window;
+            label7.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            label7.Location = new System.Drawing.Point(273, 12);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(119, 14);
+            label7.TabIndex = 18;
+            label7.Text = "Кол - во устройств";
             // 
             // devices_3
             // 
-            this.devices_3.BackColor = System.Drawing.Color.White;
-            this.devices_3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.devices_3.ForeColor = System.Drawing.Color.Black;
-            this.devices_3.FormattingEnabled = true;
-            this.devices_3.Location = new System.Drawing.Point(10, 46);
-            this.devices_3.Name = "devices_3";
-            this.devices_3.Size = new System.Drawing.Size(275, 28);
-            this.devices_3.TabIndex = 19;
+            devices_3.BackColor = System.Drawing.Color.White;
+            devices_3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            devices_3.ForeColor = System.Drawing.Color.Black;
+            devices_3.FormattingEnabled = true;
+            devices_3.Location = new System.Drawing.Point(9, 34);
+            devices_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            devices_3.Name = "devices_3";
+            devices_3.Size = new System.Drawing.Size(241, 23);
+            devices_3.TabIndex = 19;
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(64)))));
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(116, 15);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(45, 29);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 18;
-            this.pictureBox8.TabStop = false;
+            pictureBox8.BackColor = System.Drawing.SystemColors.Window;
+            pictureBox8.Image = (System.Drawing.Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new System.Drawing.Point(82, 11);
+            pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new System.Drawing.Size(39, 22);
+            pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictureBox8.TabIndex = 18;
+            pictureBox8.TabStop = false;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(64)))));
-            this.label8.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(10, 26);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 18);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Устройство";
+            label8.AutoSize = true;
+            label8.BackColor = System.Drawing.SystemColors.Window;
+            label8.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label8.ForeColor = System.Drawing.Color.Black;
+            label8.Location = new System.Drawing.Point(9, 20);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(67, 14);
+            label8.TabIndex = 18;
+            label8.Text = "Устройство";
             // 
             // d4
             // 
-            this.d4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.d4.Controls.Add(this.delete_4);
-            this.d4.Controls.Add(this.pluse_4);
-            this.d4.Controls.Add(this.capacity_4);
-            this.d4.Controls.Add(this.minus_4);
-            this.d4.Controls.Add(this.label9);
-            this.d4.Controls.Add(this.devices_4);
-            this.d4.Controls.Add(this.pictureBox12);
-            this.d4.Controls.Add(this.label10);
-            this.d4.Location = new System.Drawing.Point(61, 348);
-            this.d4.Name = "d4";
-            this.d4.Size = new System.Drawing.Size(507, 88);
-            this.d4.TabIndex = 20;
-            this.d4.Visible = false;
+            d4.BackColor = System.Drawing.Color.White;
+            d4.Controls.Add(delete_4);
+            d4.Controls.Add(pluse_4);
+            d4.Controls.Add(capacity_4);
+            d4.Controls.Add(minus_4);
+            d4.Controls.Add(label9);
+            d4.Controls.Add(devices_4);
+            d4.Controls.Add(pictureBox12);
+            d4.Controls.Add(label10);
+            d4.Location = new System.Drawing.Point(53, 261);
+            d4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            d4.Name = "d4";
+            d4.Size = new System.Drawing.Size(444, 66);
+            d4.TabIndex = 20;
+            d4.Visible = false;
             // 
             // delete_4
             // 
-            this.delete_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.delete_4.Image = ((System.Drawing.Image)(resources.GetObject("delete_4.Image")));
-            this.delete_4.Location = new System.Drawing.Point(467, 46);
-            this.delete_4.Name = "delete_4";
-            this.delete_4.Size = new System.Drawing.Size(30, 30);
-            this.delete_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.delete_4.TabIndex = 19;
-            this.delete_4.TabStop = false;
-            this.delete_4.Click += new System.EventHandler(this.delete_4_Click);
+            delete_4.BackColor = System.Drawing.SystemColors.Window;
+            delete_4.Image = (System.Drawing.Image)resources.GetObject("delete_4.Image");
+            delete_4.Location = new System.Drawing.Point(384, 35);
+            delete_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            delete_4.Name = "delete_4";
+            delete_4.Size = new System.Drawing.Size(26, 22);
+            delete_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            delete_4.TabIndex = 19;
+            delete_4.TabStop = false;
+            delete_4.Click += delete_4_Click;
             // 
             // pluse_4
             // 
-            this.pluse_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.pluse_4.Image = ((System.Drawing.Image)(resources.GetObject("pluse_4.Image")));
-            this.pluse_4.Location = new System.Drawing.Point(418, 45);
-            this.pluse_4.Name = "pluse_4";
-            this.pluse_4.Size = new System.Drawing.Size(30, 30);
-            this.pluse_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pluse_4.TabIndex = 18;
-            this.pluse_4.TabStop = false;
-            this.pluse_4.Click += new System.EventHandler(this.pluse_4_Click);
+            pluse_4.BackColor = System.Drawing.SystemColors.Window;
+            pluse_4.Image = (System.Drawing.Image)resources.GetObject("pluse_4.Image");
+            pluse_4.Location = new System.Drawing.Point(341, 35);
+            pluse_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pluse_4.Name = "pluse_4";
+            pluse_4.Size = new System.Drawing.Size(26, 22);
+            pluse_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pluse_4.TabIndex = 18;
+            pluse_4.TabStop = false;
+            pluse_4.Click += pluse_4_Click;
             // 
             // capacity_4
             // 
-            this.capacity_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.capacity_4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.capacity_4.ForeColor = System.Drawing.Color.Black;
-            this.capacity_4.Location = new System.Drawing.Point(395, 50);
-            this.capacity_4.Name = "capacity_4";
-            this.capacity_4.Size = new System.Drawing.Size(23, 20);
-            this.capacity_4.TabIndex = 18;
-            this.capacity_4.Text = "1";
-            this.capacity_4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.capacity_4_KeyPress);
+            capacity_4.BackColor = System.Drawing.SystemColors.Window;
+            capacity_4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            capacity_4.ForeColor = System.Drawing.Color.Black;
+            capacity_4.Location = new System.Drawing.Point(321, 39);
+            capacity_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            capacity_4.Name = "capacity_4";
+            capacity_4.Size = new System.Drawing.Size(20, 16);
+            capacity_4.TabIndex = 18;
+            capacity_4.Text = "1";
+            capacity_4.KeyPress += capacity_4_KeyPress;
             // 
             // minus_4
             // 
-            this.minus_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.minus_4.Image = ((System.Drawing.Image)(resources.GetObject("minus_4.Image")));
-            this.minus_4.Location = new System.Drawing.Point(350, 45);
-            this.minus_4.Name = "minus_4";
-            this.minus_4.Size = new System.Drawing.Size(30, 30);
-            this.minus_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.minus_4.TabIndex = 18;
-            this.minus_4.TabStop = false;
-            this.minus_4.Click += new System.EventHandler(this.minus_4_Click);
+            minus_4.BackColor = System.Drawing.SystemColors.Window;
+            minus_4.Image = (System.Drawing.Image)resources.GetObject("minus_4.Image");
+            minus_4.Location = new System.Drawing.Point(281, 35);
+            minus_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            minus_4.Name = "minus_4";
+            minus_4.Size = new System.Drawing.Size(26, 22);
+            minus_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            minus_4.TabIndex = 18;
+            minus_4.TabStop = false;
+            minus_4.Click += minus_4_Click;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.label9.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label9.Location = new System.Drawing.Point(340, 15);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(157, 18);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Кол - во устройств";
+            label9.AutoSize = true;
+            label9.BackColor = System.Drawing.SystemColors.Window;
+            label9.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label9.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            label9.Location = new System.Drawing.Point(273, 12);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(119, 14);
+            label9.TabIndex = 18;
+            label9.Text = "Кол - во устройств";
             // 
             // devices_4
             // 
-            this.devices_4.BackColor = System.Drawing.Color.White;
-            this.devices_4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.devices_4.ForeColor = System.Drawing.Color.Black;
-            this.devices_4.FormattingEnabled = true;
-            this.devices_4.Location = new System.Drawing.Point(10, 46);
-            this.devices_4.Name = "devices_4";
-            this.devices_4.Size = new System.Drawing.Size(275, 28);
-            this.devices_4.TabIndex = 19;
+            devices_4.BackColor = System.Drawing.Color.White;
+            devices_4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            devices_4.ForeColor = System.Drawing.Color.Black;
+            devices_4.FormattingEnabled = true;
+            devices_4.Location = new System.Drawing.Point(9, 34);
+            devices_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            devices_4.Name = "devices_4";
+            devices_4.Size = new System.Drawing.Size(241, 23);
+            devices_4.TabIndex = 19;
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(116, 15);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(45, 29);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 18;
-            this.pictureBox12.TabStop = false;
+            pictureBox12.BackColor = System.Drawing.SystemColors.Window;
+            pictureBox12.Image = (System.Drawing.Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new System.Drawing.Point(82, 12);
+            pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new System.Drawing.Size(39, 22);
+            pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 18;
+            pictureBox12.TabStop = false;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(0)))));
-            this.label10.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(10, 26);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 18);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Устройство";
+            label10.AutoSize = true;
+            label10.BackColor = System.Drawing.SystemColors.Window;
+            label10.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label10.ForeColor = System.Drawing.Color.Black;
+            label10.Location = new System.Drawing.Point(9, 20);
+            label10.Name = "label10";
+            label10.Size = new System.Drawing.Size(67, 14);
+            label10.TabIndex = 18;
+            label10.Text = "Устройство";
             // 
-            // Clear
+            // devices_1
             // 
-            this.Clear.BackColor = System.Drawing.Color.White;
-            this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Clear.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Clear.ForeColor = System.Drawing.Color.White;
-            this.Clear.Image = ((System.Drawing.Image)(resources.GetObject("Clear.Image")));
-            this.Clear.Location = new System.Drawing.Point(232, 442);
-            this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(165, 50);
-            this.Clear.TabIndex = 21;
-            this.Clear.UseVisualStyleBackColor = false;
-            this.Clear.Click += new System.EventHandler(this.Clear_Click);
+            devices_1.BackColor = System.Drawing.Color.White;
+            devices_1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            devices_1.ForeColor = System.Drawing.Color.Black;
+            devices_1.FormattingEnabled = true;
+            devices_1.Location = new System.Drawing.Point(9, 35);
+            devices_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            devices_1.Name = "devices_1";
+            devices_1.Size = new System.Drawing.Size(241, 23);
+            devices_1.TabIndex = 9;
             // 
-            // pictureBox4
+            // pictureBox1
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(-9, -12);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(795, 531);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 22;
-            this.pictureBox4.TabStop = false;
+            pictureBox1.BackColor = System.Drawing.SystemColors.Window;
+            pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new System.Drawing.Point(82, 9);
+            pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(39, 22);
+            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
+            // 
+            // minus_1
+            // 
+            minus_1.BackColor = System.Drawing.SystemColors.Window;
+            minus_1.Image = (System.Drawing.Image)resources.GetObject("minus_1.Image");
+            minus_1.Location = new System.Drawing.Point(281, 35);
+            minus_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            minus_1.Name = "minus_1";
+            minus_1.Size = new System.Drawing.Size(26, 22);
+            minus_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            minus_1.TabIndex = 13;
+            minus_1.TabStop = false;
+            minus_1.Click += minus_1_Click;
+            // 
+            // pluse_1
+            // 
+            pluse_1.BackColor = System.Drawing.SystemColors.Window;
+            pluse_1.ErrorImage = (System.Drawing.Image)resources.GetObject("pluse_1.ErrorImage");
+            pluse_1.Image = (System.Drawing.Image)resources.GetObject("pluse_1.Image");
+            pluse_1.Location = new System.Drawing.Point(341, 35);
+            pluse_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            pluse_1.Name = "pluse_1";
+            pluse_1.Size = new System.Drawing.Size(26, 22);
+            pluse_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pluse_1.TabIndex = 12;
+            pluse_1.TabStop = false;
+            pluse_1.Click += pluse_1_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = System.Drawing.SystemColors.Window;
+            label4.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            label4.Location = new System.Drawing.Point(273, 10);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(119, 14);
+            label4.TabIndex = 15;
+            label4.Text = "Кол - во устройств";
+            label4.Click += label4_Click;
+            // 
+            // capacity_1
+            // 
+            capacity_1.BackColor = System.Drawing.SystemColors.Window;
+            capacity_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            capacity_1.ForeColor = System.Drawing.Color.Black;
+            capacity_1.Location = new System.Drawing.Point(321, 39);
+            capacity_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            capacity_1.Name = "capacity_1";
+            capacity_1.Size = new System.Drawing.Size(20, 16);
+            capacity_1.TabIndex = 14;
+            capacity_1.Text = "1";
+            capacity_1.TextChanged += capacity_1_TextChanged;
+            capacity_1.KeyPress += capacity_1_KeyPress;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = System.Drawing.SystemColors.Window;
+            label3.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label3.ForeColor = System.Drawing.Color.Black;
+            label3.Location = new System.Drawing.Point(9, 16);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(67, 14);
+            label3.TabIndex = 10;
+            label3.Text = "Устройство";
+            // 
+            // d1
+            // 
+            d1.BackColor = System.Drawing.Color.White;
+            d1.Controls.Add(label3);
+            d1.Controls.Add(capacity_1);
+            d1.Controls.Add(label4);
+            d1.Controls.Add(pluse_1);
+            d1.Controls.Add(minus_1);
+            d1.Controls.Add(pictureBox1);
+            d1.Controls.Add(devices_1);
+            d1.Location = new System.Drawing.Point(53, 50);
+            d1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            d1.Name = "d1";
+            d1.Size = new System.Drawing.Size(444, 66);
+            d1.TabIndex = 16;
+            // 
+            // button2
+            // 
+            button2.Location = new System.Drawing.Point(206, 332);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(139, 33);
+            button2.TabIndex = 24;
+            button2.Text = "Очистить";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += Clear_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new System.Drawing.Point(351, 332);
+            button3.Name = "button3";
+            button3.Size = new System.Drawing.Size(147, 33);
+            button3.TabIndex = 25;
+            button3.Text = "Посчитать";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += calculateResult_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new System.Drawing.Point(53, 332);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(147, 33);
+            button1.TabIndex = 26;
+            button1.Text = "Добавить Устройство";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += addDevice_Click;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(782, 503);
-            this.Controls.Add(this.Clear);
-            this.Controls.Add(this.d4);
-            this.Controls.Add(this.d3);
-            this.Controls.Add(this.addDevice);
-            this.Controls.Add(this.d2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.currency);
-            this.Controls.Add(this.Kwh_label);
-            this.Controls.Add(this.Light);
-            this.Controls.Add(this.price);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.calculateResult);
-            this.Controls.Add(this.d1);
-            this.Controls.Add(this.pictureBox4);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Main";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculator";
-            ((System.ComponentModel.ISupportInitialize)(this.Light)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_1)).EndInit();
-            this.d1.ResumeLayout(false);
-            this.d1.PerformLayout();
-            this.d2.ResumeLayout(false);
-            this.d2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.delete_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.d3.ResumeLayout(false);
-            this.d3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.delete_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.d4.ResumeLayout(false);
-            this.d4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.delete_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pluse_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minus_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.White;
+            ClientSize = new System.Drawing.Size(556, 377);
+            Controls.Add(button1);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(d4);
+            Controls.Add(d3);
+            Controls.Add(d2);
+            Controls.Add(label1);
+            Controls.Add(currency);
+            Controls.Add(Kwh_label);
+            Controls.Add(Light);
+            Controls.Add(price);
+            Controls.Add(label2);
+            Controls.Add(pictureBox2);
+            Controls.Add(d1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
+            Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            Name = "Main";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "Mining Calculator";
+            ((System.ComponentModel.ISupportInitialize)Light).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            d2.ResumeLayout(false);
+            d2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)delete_1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)minus_2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            d3.ResumeLayout(false);
+            d3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)delete_3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)minus_3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            d4.ResumeLayout(false);
+            d4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)delete_4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)minus_4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)minus_1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pluse_1).EndInit();
+            d1.ResumeLayout(false);
+            d1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private System.Windows.Forms.Button calculateResult;
         private System.Windows.Forms.Label Kwh_label;
         private System.Windows.Forms.TextBox price;
         private System.Windows.Forms.Label label2;
@@ -731,14 +737,6 @@ namespace Calculator_Main
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox Light;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ComboBox devices_1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pluse_1;
-        private System.Windows.Forms.PictureBox minus_1;
-        private System.Windows.Forms.TextBox capacity_1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel d1;
         private System.Windows.Forms.Panel d2;
         private System.Windows.Forms.ComboBox devices_2;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -748,7 +746,6 @@ namespace Calculator_Main
         private System.Windows.Forms.PictureBox minus_2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox delete_1;
-        private System.Windows.Forms.Button addDevice;
         private System.Windows.Forms.Panel d3;
         private System.Windows.Forms.PictureBox delete_3;
         private System.Windows.Forms.PictureBox pluse_3;
@@ -767,8 +764,17 @@ namespace Calculator_Main
         private System.Windows.Forms.ComboBox devices_4;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button Clear;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.ComboBox devices_1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox minus_1;
+        private System.Windows.Forms.PictureBox pluse_1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox capacity_1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel d1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
     }
 }
 
